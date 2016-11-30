@@ -1,0 +1,20 @@
+<section *ngIf="classroom">
+  <h2>Class Settings</h2>
+  <p>
+    <label>Details</label><br />
+    <input [(ngModel)]="classroom.grade" placeholder="Grade"/>
+    <input [(ngModel)]="classroom.year" placeholder="Year"/>
+  </p>
+  <p>
+    <label>Teacher</label><br />
+    <input [(ngModel)]="classroom.teacher_title" placeholder="Title"/>
+    <input [(ngModel)]="classroom.teacher_first_name" placeholder="First Name"/>
+    <input [(ngModel)]="classroom.teacher_last_name" placeholder="Last Name"/>
+  </p>
+  <p>
+    <label>Principal</label><br />
+    <input [(ngModel)]="classroom.principal_title" placeholder="Title"/>
+    <input [(ngModel)]="classroom.principal_first_name" placeholder="First Name"/>
+    <input [(ngModel)]="classroom.principal_last_name" placeholder="Last Name"/>
+  </p>
+</section>
